@@ -1,0 +1,192 @@
+BODY {
+    font-family: Roboto Mono, Monospace;
+    margin-bottom: 50px;
+}
+
+.page-header {
+    background-image: url('/IMAGE/COUPLE/COUPLE (2).jpg');
+    background-position: center;
+}
+
+.whyUs {
+    justify-content: space-around;
+}
+
+.whyUs > DIV {
+    width: 200px;
+    border-radius: 50px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.15) 0px 3px 6px;
+}
+
+.whyUs > DIV:nth-child(even) {
+    background-color: rgba(244, 67, 54, 0.7);
+}
+
+.secondWhyUs {
+    color: white;
+}
+
+.manPicBox {
+    position: relative;
+}
+
+.manPic {
+    height: 300px;
+    width: 300px;
+    background-image: url('/IMAGE/MAN/MAN (8).jpg');
+    background-position: center;
+    background-size: 450px;
+    border-radius: 60px 0;
+    z-index: 1;
+}
+
+.manPicFrame {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border: #37806B 1px solid;
+    background-color: white;
+    border-radius: 60px 0px;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+}
+
+.womanPicBox {
+    position: relative;
+}
+
+.womanPic {
+    height: 300px;
+    width: 300px;
+    background-image: url('/IMAGE/WOMAN/WOMAN (5).jpg');
+    background-position: center;
+    background-size: 390px;
+    border-radius: 60px 0;
+    z-index: 1;
+}
+
+.womanPicFrame {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border: #F44336 1px solid;
+    background-color: white;
+    border-radius: 60px 0px;
+    top: 22px;
+    left: 22px;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .womanImage {
+        order: 1;
+    }
+
+    .womanIntro {
+        order: 2;
+    }
+}
+
+.card-header-primary.cardTab {
+    background: linear-gradient(60deg, #37806BAA, #37806B);
+}
+
+@media (max-width: 575px) {
+    .womanPic, .womanPicFrame,
+    .manPic, .manPicFrame {
+        height: 200px;
+        width: 200px;
+    }
+
+    .womanPic, .manPic {
+        background-size: 300px;
+    }
+}
+
+.commentName {
+    padding: 5px !important;
+    margin-top: -10px !important;
+    background: linear-gradient(60deg, #F44336AA, #F44336) !important;
+}
+
+.commentMan {
+    background: linear-gradient(60deg, #37806BAA, #37806B) !important;
+}
+
+.feedback {
+    justify-content: space-around;
+}
+
+.feedback > DIV {
+    background: #FFF;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+    border-radius: 70px 0px;
+}
+
+.feedbackBox {
+    position: relative;
+}
+
+.feedback1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url('/IMAGE/WOMAN/WOMAN (2).jpg');
+    background-position: center;
+    background-size: 100px;
+    border-radius: 30px 0;
+    top: 25px;
+    left: -39px;
+}
+
+.feedbackText {
+    width: 85%;
+    margin-left: auto;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+}
+
+.feedback2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url('/IMAGE/WOMAN/WOMAN (7).jpg');
+    background-position: center;
+    background-size: 100px;
+    border-radius: 30px 0;
+    top: 25px;
+    left: -39px;
+}
+
+
+.intro > IMG {
+    width: 80%;
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .feedback1, .feedback2 {
+        height: 85px;
+        width: 85px;
+    }
+
+    .intro > IMG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.lineWoman, .lineMan {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.15) 0px 3px 6px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.lineWoman {
+    background-color: rgba(244, 67, 54, 0.7);
+    color: white;
+}
